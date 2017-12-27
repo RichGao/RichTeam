@@ -1,0 +1,174 @@
+.row .no-float:not(:last-child) {
+    border-right: 0px solid #666;
+}
+.row-left {    
+    background: rgba(0,0,0,0.5);
+}
+.logo-centra {
+    margin:9px!important;
+    height:70%!important;
+}
+.page-content {
+    padding:0px!important;
+}
+.page-header.navbar .page-logo{
+    background: #26344B!important;
+}
+.page-top {
+    background: #374865!important;
+}
+.dropdown-toggle{
+    color:white!important;
+}
+.dropdown-toggle:hover{
+    background: #0d0e11!important;
+}
+/*.trn {
+    background: transparent!important;
+}*/
+body {
+    background-image: url('../images/blur-bg.jpg');
+}
+.page-container {
+    width:100%;
+    background: rgba(0,0,0,0.7);
+}
+.input-centra {
+    height: 32px;
+    border: none;
+    font-size: 10pt;
+    background: transparent;
+    text-align: right;
+    color: white;
+    border-radius: 0px;
+    /* border-bottom-right-radius: 0px; */
+    /* border-top-right-radius: 0px; */
+    border-bottom: 2px solid #337ab7;
+}
+.border5 {
+    border-radius: 5px;
+}
+.border-primary {
+    border-color:#337ab7;
+}
+.border-danger {
+    border-color: #d43f3a;
+}
+.border-success {
+    border-color: #5cb85c;
+}
+.td-centra {
+    padding:0px!important;
+}
+.btn-centra {
+    height: 32px;
+    width: 100%;
+    margin-left:-2px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.btn-buy {
+    font-size: 12pt;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #5cb85c;
+    color: #5cb85c 
+}
+.btn-sell {
+    font-size: 12pt;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #d43f3a;
+    color: #d43f3a
+}
+.input-sell-centra {
+    border-color: #d43f3a;
+}
+.input-buy-centra {
+    border-color: #5cb85c;
+}
+.navbar-default {
+    background: rgba(0,0,0,0.1)!important;
+}
+.top-bar{
+    background: rgba(0,0,0,0.5);
+}
+.row-header {
+    background: rgba(4,4,4, 0.3)!important;
+}
+.nav-tabs.columns > li > a {
+    background: rgba(3,3,3,0.5)!important;
+}
+.content-centra {
+    display: flex;
+    min-height: 0;
+    overflow: hidden;
+}
+.wrapper-centra {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: auto;
+}
+.nav-tabs.columns > li > a {
+    background: linear-gradient(rgba(22,22,31,0.5),rgba(34,39,42, 0.7), rgba(22,22,31,0.5));
+    border-left: 1px solid #233331;
+}
+.nav-tabs.columns > li > a:hover {
+    background: rgba(22,22,31,0.5);
+    border-left: 1px solid #233331;
+}
+#helpDropdown .chat-button .js-gitter-toggle-chat-button {
+    display: none;
+}
+.dropdown-menu {
+    background: linear-gradient(#080b0d, #1f252f);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+    border: 1px solid #383d42;
+}
+.dropdown-menu>li>a {
+    /* background-color: transparent!important; */
+    color: white;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #373b48;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: #262a3e;
+}
+.nav-tabs.columns > li.active > a {
+    color: #fff;
+    background: linear-gradient(rgba(30,30,105, 0.1), rgba(0,0,0,0.4))!important;
+}
+.nav-tabs.columns > li > a:hover {
+    color: yellow!important;
+    background: linear-gradient(rgba(30, 65, 105, 0.1), rgba(0,0,0,0.4))!important;
+}
+.navbar-centra-erc20 {
+    min-height: 10px;
+    border-bottom: 1px;
+    border: none;
+    height:14px;
+}
+.ajs-header, .ajs-body, .ajs-footer{
+    /*background: rgba(0,0,64,1);*/
+    /*color: white;*/
+}
+.ajs-ok{
+    color: black;
+    background: rgba(25,25,25,0.6);
+}
+#helpDropdown, #tokenGuidesDropdown, #languages {
+    display: none;
+}
+#volume_btn {
+    cursor:pointer;
+    z-index:1000;
+    font-size: 20px;
+    padding: 2px 4px 2px 4px;
+}
